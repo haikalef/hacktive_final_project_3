@@ -71,7 +71,7 @@ feature = [[
             
 
 
-new_df = pd.DataFrame(feature, columns=['age', 'anaemia_0', 'anaemia_1', 'creatinine_phosphokinase', 'diabetes_0', 'diabetes_1', 'ejection_fraction', 'hbp_0', 'hbp_1', 'platelets', 'serum_creatinine', 'serum_sodium', 'sex_0', 'sex_1', 'smoking_0', 'smoking_1', 'time'])
+new_df = pd.DataFrame(feature, columns=['age', 'anae_0', 'anae_1', 'creatinine_phosphokinase', 'dia_0', 'dia_1', 'ejection_fraction', 'hbp_0', 'hbp_1', 'platelets', 'serum_creatinine', 'serum_sodium', 'sex_0', 'sex_1', 'smoking_0', 'smoking_1', 'time'])
 
 
 #code untuk prediksi
