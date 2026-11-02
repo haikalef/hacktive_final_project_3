@@ -8,7 +8,7 @@ hf_model = pickle.load(open('fp3_model.sav', 'rb'))
 #judul web
 st.title('Check Heart Failure Prediction')
 st.markdown(
-    "<p style='text-align: center;'>Made by <b><a href='https://www.linkedin.com/in/rosita-nurul-janatin-561145214/'>'Rosita Nurul Janatin</a></b> , <b><a href='https://www.linkedin.com/in/haikalef'>'Haikal Efendi</a></b> & <b><a href='https://www.linkedin.com/in/ni-made-kirei-kharisma-handayani-90528b21a/'>Ni Made Kirei Kharisma Handayani</a></b></p>",
+    "<p style='text-align: center;'>Made by <b><a href='https://www.linkedin.com/in/rosita-nurul-janatin-561145214/'>'Rosita Nurul Janatin</a></b> , <b><a href='https://www.linkedin.com/in/haikalef/'>'Haikal Efendi</a></b> & <b><a href='https://www.linkedin.com/in/ni-made-kirei-kharisma-handayani-90528b21a/'>Ni Made Kirei Kharisma Handayani</a></b></p>",
     unsafe_allow_html=True
 )
 st.image('https://asset.kompas.com/crops/N3TaNXGscp8CeB6L55FtwN781mQ=/0x88:1000x755/750x500/data/photo/2017/09/08/464992679.jpg')
